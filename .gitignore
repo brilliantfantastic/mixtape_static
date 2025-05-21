@@ -2,7 +2,9 @@
 /_build/
 
 # The directory that Griffin creates to store the rendered site.
-/_site/
+# TODO: We should ignore this directory and allow for the building of this to a GitHub action.
+# For now, we will do this manually and push the changes to this built directory
+# TODO: /_site/
 
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
