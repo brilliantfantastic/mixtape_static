@@ -1,0 +1,1 @@
+<!doctype html><title>My Cool Blog</title><p>Hello!</p>
