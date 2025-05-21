@@ -2,6 +2,18 @@ import Config
 
 config :griffin_ssg,
   input: "src",
-  output: "_site"
+  output: "_site",
+  passthrough_copies: ["assets/**/*.css"]
+
+config :tailwind,
+  version: "4.0.0",
+  default: [
+    args: ~w(
+      --config=assets/js/tailwind.config.js
+      --input=assets/css/app.css
+      --output=_site/assets/css/style.css
+    ),
+    cd: Path.expand("..", __DIR__)
+  ]
 
 # import_config "#{Mix.env()}.exs"
