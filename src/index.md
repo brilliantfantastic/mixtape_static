@@ -1,8 +1,8 @@
 ---
 layout: base
-title: "Mixtape - COMING SOON"
+title: "mixtape - COMING SOON"
 ---
 
-# Hello there, Mixtape
+# **Mixtape**
 
 ![mixtape logo](/assets/images/mixtape.png)
