@@ -1,0 +1,11 @@
+<hr class="thick" />
+
+<h3 class="text-4xl lg:text-6xl lowercase">Building in the open</h3>
+
+<p class="py-4 lg:py-8">
+  Come watch the art get made, and we'll get f**ked up in the process ⤵
+</p>
+
+<div class="py-4 lg:py-8">
+  <%= @youtube.("39jQulZKlZs") %>
+</div>
