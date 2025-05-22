@@ -8,4 +8,4 @@ author: Jamie Wright
 
 ### A fun new way to discover music on _Spotify_ or _Apple Music_, coming soon
 
-![mixtape logo](/assets/images/mixtape.png)
+![mixtape logo](./assets/images/mixtape.png)
