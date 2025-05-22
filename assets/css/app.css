@@ -11,5 +11,9 @@
 }
 
 h1 {
-  @apply text-8xl font-logo font-bold lowercase tracking-tight;
+  @apply text-6xl lg:text-8xl font-logo font-bold lowercase tracking-tight;
+}
+
+img[alt="mixtape logo"] {
+  @apply w-1/2 h-auto mx-auto;
 }
