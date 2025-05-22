@@ -10,10 +10,18 @@
   --font-logo: "Inconsolata", sans-serif;
 }
 
+body {
+  @apply bg-yellow-200;
+}
+
 h1 {
   @apply text-6xl lg:text-8xl font-logo font-bold lowercase tracking-tight;
 }
 
+h3 {
+  @apply px-12 lg:px-4 py-12 lg:py-4 text-xl lg:text-3xl;
+}
+
 img[alt="mixtape logo"] {
-  @apply w-1/2 h-auto mx-auto;
+  @apply my-4 lg:my-16 w-xs lg:w-sm h-auto mx-auto;
 }

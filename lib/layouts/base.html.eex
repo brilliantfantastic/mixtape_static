@@ -11,9 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
-  <body class="bg-yellow-200 flex flex-col items-center">
-    <%= @content %>
+  <body>
+    <div class="flex flex-col h-screen justify-between items-center">
+      <main class="flex flex-col items-center">
+        <%= @content %>
+      </main>
 
-    <%= @partials.footer %>
+      <%= @partials.footer %>
+    </div>
   </body>
 </html>
