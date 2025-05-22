@@ -1,6 +1,15 @@
-@import "tailwindcss";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "tailwindcss";
+
 @plugin "@tailwindcss/forms";
+
+@theme {
+  --font-logo: "Inconsolata", sans-serif;
+}
+
+h1 {
+  @apply text-8xl font-logo font-bold lowercase tracking-tight;
+}
