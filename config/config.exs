@@ -3,14 +3,14 @@ import Config
 config :griffin_ssg,
   input: "src",
   output: "_site",
-  passthrough_copies: ["assets/js/*.js"]
+  passthrough_copies: ["assets/css/*.css", "assets/images/**/*.{jpg,png,svg}", "assets/js/*.js"]
 
 config :tailwind,
   version: "4.0.0",
   default: [
     args: ~w(
-      --config=src/assets/js/tailwind.config.js
-      --input=src/assets/css/app.css
+      --config=assets/js/tailwind.config.js
+      --input=assets/css/app.css
       --output=_site/assets/css/style.css
     ),
     cd: Path.expand("..", __DIR__)
