@@ -3,7 +3,7 @@ import Config
 config :griffin_ssg,
   input: "src",
   output: "_site",
-  passthrough_copies: ["assets/images/**/*.{jpg,png,svg}", "assets/js/*.js"],
+  passthrough_copies: ["assets/images/**/*.{ico,jpg,png,svg}", "assets/js/*.js"],
   shortcodes: %{
     youtube: fn slug ->
       """
