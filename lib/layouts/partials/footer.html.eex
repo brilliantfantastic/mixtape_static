@@ -1,3 +1,5 @@
-<footer class="py-4">
-  <div>Copyright &copy; <%= Date.utc_today() |> Calendar.strftime("%Y") %> Jamie f'in Wright <span class="text-sm text-gray-800">(like the brothers, no relation)</span>.</div>
+<footer>
+  <div class="px-2 py-4">
+    Copyright &copy; <%= Date.utc_today() |> Calendar.strftime("%Y") %> Jamie f'in Wright <span class="text-sm text-gray-800">(like the brothers, no relation)</span>.
+  </div>
 </footer>

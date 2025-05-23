@@ -1,13 +1,13 @@
 <hr class="thick" />
 
-<div class="flex flex-col items-center">
+<div class="flex flex-col justify-center items-center">
   <h3 class="text-4xl lg:text-6xl lowercase">Building in the open</h3>
 
-  <p class="mx-8 text-gray-800">
+  <p class="text-gray-800">
     Come watch the art get made, and we'll get f**ked up in the process ⤵
   </p>
 </div>
 
-<div class="py-4 lg:py-8">
+<div class="p-4 lg:p-8">
   <%= @youtube.("39jQulZKlZs") %>
 </div>
