@@ -52,3 +52,5 @@ The application is automatically deployed to production when code is merged into
 1. Make changes to the static site via the `src` and `assets` directories.
 1. Run `mix assets.deploy` to build the assets.
 1. Build the static site with `mix grf.build`.
+1. Commit and push the changes to the `main` branch.
+1. GitHub Pages will start the build process
