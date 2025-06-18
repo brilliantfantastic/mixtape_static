@@ -9,5 +9,5 @@
 </div>
 
 <div class="p-4 lg:p-8">
-  <%= @youtube.("jus0jbZfMqo") %>
+  <%= @youtube.("lsu-JApk3ao") %>
 </div>
